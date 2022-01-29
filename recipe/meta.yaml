@@ -18,6 +18,8 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
+    - wheel
     - poetry
     - python
   run:
