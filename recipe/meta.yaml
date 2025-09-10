@@ -42,7 +42,7 @@ test:
   commands:
     - pip check
     - python -c "from importlib.metadata import version; assert(version('{{ name }}')=='{{ version }}')"
-
+    - pytest -ra -vv langcodes/tests
 
 about:
   home: https://github.com/georgkrause/langcodes
